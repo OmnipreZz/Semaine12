@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Spotify est un service de musique qui vous donne accès à des millions de titres.">
+    <meta name="keywords" content="Spotify, musique, en ligne, écouter, streaming, lecture, numérique, album, artiste, liste de lecture">
+
+    <title>De la musique pour tous - Spotify</title>
+
+    <link rel="canonical" href="https://www.spotify.com/">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+ 
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand ml-5">
+            <span class="navbar-text" id="logo"><i class="fab fa-spotify fa-inverse"></i>Spotify</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span>
+                <i id="toggle" class="fas fa-bars fa-inverse"></i>
+            </span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Premium</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Aide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pr-4" href="#">Télécharger</a>
+                </li>
+                <li class="none nav-item">
+                    <a class="nav-link">|</a>
+                </li>
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link pl-4" href="#">S'inscrire</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle pr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Se Connecter
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" style="width: 280px;" aria-labelledby="navbarDropdown">
+                        <form class="p-3">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Username</label>
+                                <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <button type="submit" class="submit btn">Submit</button>
+                        </form>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link pr-5" href="#">Se Connecter</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class=" carou container-fluid">
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="slide carousel-item active">
+                <h1 class="first-slide">De la musique pour tous.</h1>
+                <div class="mt-5">
+                    <a href="#" class="badge badge-pill free pr-5 pl-5 mr-2">TELECHARGER SPOTIFY FREE</a>
+                    <a href="#" class="badge badge-pill premium pr-5 pl-5 ml-2">ABONNEZ-VOUS A SPOTIFY PREMIUM</a>
+                </div>
+            </div>
+            <div class="slide carousel-item">
+                <h1 class="second-slide">Offrez Spotify Premium à toute la <br> famille.<br> Seulement 14,99 €.</h1>
+                <div class="mt-5">
+                    <a href="#" class="badge badge-pill free pr-5 pl-5">EN SAVOIR PLUS</a>
+                </div>
+            </div>
+            <div class="slide carousel-item">
+                <h1 class="three-slide">Utilisez Spotify sur votre <br> PlayStation®.</h1>
+                <div class="mt-5">
+                    <a href="#" class="badge badge-pill free pr-5 pl-5">EN SAVOIR PLUS</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="ancre" class="arr">
+        <a class="arrow mt-5" href="#ancre" role="button">
+            <i class="fa fa-circle fa-stack-2x" style="color: white;"></i>
+            <i class="fas fa-angle-double-down fa-stack-2x"></i>
+        </a>
+    </div>
+    <!-- <div class="fa-stack fa-lg fa-3x">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-user fa-inverse"></i>
+    </div> -->
+</div>
+
+<br>
+
+<div class="container-fluid">
+    <div class="row mb-5 pb-5" style="margin-top: -2%;">
+        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 col-xl-7 align">
+            <img class="dim" src="https://placehold.it/550x550">
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <h2 class="p1">
+                Les avantages de Spotify
+            </h2>
+            <div>
+                <h3 class="p11">
+                    Musique
+                </h3>
+                <p>
+                    Le catalogue Spotify compte plusieurs millions de morceaux. Écoutez votre titres favoris, découvrez les nouveautés et composez
+                    la playlist de vos rêves.
+                </p>
+            </div>
+            <div>
+                <h3 class="p11">
+                    Playlists
+                </h3>
+                <p>
+                    Découvrez des playlists adaptées à vos envies, composées par des fans de musique et par des spécialistes.
+                </p>
+            </div>
+            <div>
+                <h3 class="p11">
+                    Nouveautés
+                </h3>
+                <p>
+                    Écoutez les derniers singles et albums de la semaine, et découvrez les titres qui ont la cote dans le top 50.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-1 col-lg-1 col-xl-1"></div>
+    </div>
+</div>
+
+
+
+<div id="ancre2" class="jumbotron jumbotron-pink">
+    <div class="arr1">
+        <a class="arrow1" href="#ancre2" role="button">
+            <i class="fa fa-circle" style="color: white;"></i>
+            <i class="fas fa-angle-double-down" style="margin-left: -50px;"></i>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-4 col-lg-4" style="padding-top: 3%;">
+            <h2 class="p2 mb-5">
+                Tellement simple.
+            </h2>
+        
+            <h3 class="p21 mb-3">
+                Rechercher
+            </h3>
+            <p class="p22 mb-4">
+                Envie d'écouter un titre en particulier ? Cherchez, cliquez, écoutez. Tout simplement.
+            </p>
+        
+            <h3 class="p21 mb-3">
+                Parcourir
+            </h3>
+            <p class="p22 mb-4">
+                Découvrez sans plus attendre les classements les plus récents, les dernières nouveautés et les meilleures playlists.
+            </p>
+        
+            <h3 class="p21 mb-3">
+                Découvrir
+            </h3>
+            <p class="p22 mb-4">
+                Chaque lundi, découvrez une playlist personnalisée selon vos goûts musicaux. Ou détendez-vous en écoutant la radio.
+            </p>
+        </div>
+        <!-- <div class="col-md-2 col-lg-2">
+        </div> -->
+        <div class=" flexphone col-md-8 col-lg-8">
+            <img src="img/iphone-white-svg1.png" alt="iphone">
+        </div>
+        </div>
+    </div>
+</div>
+
+<div id="ancre1" class="jumbotron jumbotron-black">
+    <div class="arr1">
+        <a class="arrow1" href="#ancre1" role="button">
+            <i class="fa fa-circle" style="color: white;"></i>
+            <i class="fas fa-angle-double-down" style="margin-left: -50px;"></i>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="app multimedia col-md-12 col-lg-12 mt-5">
+                <i class="fas fa-tv fa-inverse fa-10x mr-4"></i>
+                <i class="fas fa-gamepad fa-inverse fa-10x mr-4"></i>
+                <i class="fas fa-volume-up fa-inverse fa-10x"></i>
+            </div>
+            <div class="multimedia col-xs-6 col-sm-6 col-md-12 col-lg-12 mt-5 pt-5">
+                <span class="multi">
+                    Un compte. Emportez votre musique partout.
+                </span>
+            </div>
+            <div class="multimedia col-xs-6 col-sm-6 col-md-12 col-lg-12 mt-5 pt-5">
+                <ul>
+                    <div class="alldevices">
+                        <li class="mr-2">MOBILE</li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">ORDINATEUR</li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">TABLETTE</li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">VOITURE</li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">HAUT-PARLEUR</li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">
+                            <a href="/fr/playstation/" data-tracking='{"category": "home (devices)", "action": "playstation"}'>PLAYSTATION®</a>
+                        </li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">TV</li>
+                        <li class="tiret mr-2">-</li>
+                        <li class="mr-2">
+                            <a href="/fr/redirect/webplayerlink/?utm_medium=www_deviceslink" data-tracking='{"category": "home (devices)", "action": "web-player"}'>LECTEUR WEB</a>
+                            <span>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="ancre3" class="jumbotron jumbotron-pink1">
+    <div class="arr1">
+        <a class="arrow1" href="#ancre3" role="button">
+            <i class="fa fa-circle" style="color: white;"></i>
+            <i class="fas fa-angle-double-down" style="margin-left: -50px;"></i>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 col-lg-8" style="padding-top: 3%;">
+                
+            <h2 class="p2 mb-4">
+                En avant la musique.
+            </h2>
+            <p class="p22 mb-4">
+                 De la musique gratuite.
+                <br> Ou optez pour un compte Premium et écoutez vos morceaux à la demande, partout où vous voulez.
+            </p>
+            <div class="prix">
+                <h3 class="p21 mb-3">
+                    Spotify
+                </h3>
+                <h2 class="p2" style="margin-top: -10px; margin-left: 57%">
+                    0,00€
+                </h2>
+                <h3 class="p21 mb-3">
+                    /
+                </h3>
+                <h3 class="p21 mb-3">
+                    mois
+                </h3>
+            </div>
+            <div class="phrase mt-3">
+                <p>Écoutez vos artistes et albums préférés. Vous entendrez occasionnellement des spots publicitaires.</p>
+            </div>
+            <a href="#" class="b badge badge-pill free pr-5 pl-5 mr-2 mt-4">TELECHARGER SPOTIFY FREE</a>
+            <div class="prix mt-5">
+                <h3 class="p21 mb-3">
+                    Spotify
+                </h3>
+                <h3 class="p21 mb-3">
+                    Premium
+                </h3>
+                <h2 class="p2" style="margin-top: -10px; margin-left: 40%">
+                    9,99€
+                </h2>
+                <h3 class="p21 mb-3">
+                    /
+                </h3>
+                <h3 class="p21 mb-3">
+                    mois
+                </h3>
+            </div>
+                <div class="phrase mt-3">
+                    <p>Écoute à la demande.
+                        <br>Musique hors connexion
+                        <br>Aucune pub
+                        <br>Grande qualité audio.</p>
+                </div>
+            <a href="#" class="b badge badge-pill free pr-5 pl-5 mr-2 mt-4">ABONNEZ-VOUS A SPOTIFY PREMIUM</a>
+
+            </div>
+            <div class="col-md-1 col-lg-1">
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <img src="img/default_a11471glare.png" class="phone" alt="iphone" style="color: white;">
+            </div>
+        </div>
+            <p class="mention mt-5 pt-3">
+                * L'offre Spotify® d'essai gratuit de 30 est soumise aux
+                <a href="/fr/legal/new-30-days-free-trial-terms-and-conditions/">conditions générales</a> . Les utilisateurs abonnés au service Premium ou Unlimited, ou ayant déjà profité d'un essai
+                gratuit ne peuvent pas bénéficier de cette offre.
+            </p>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-md-2 col-lg-2 mt-5">
+                <a class="ml-5">
+                    <span class="navbar-text text-white" id="logo"><i class="fab fa-spotify fa-inverse"></i>Spotify</span>
+                </a>
+            </div>
+            <div class="col-md-2 col-lg-2 text-white mt-5 pt-4">
+                <p class="he">SOCIETE</p>
+                <p>A propos</p>
+                <p>Offres d'emploi</p>
+                <p>Presse</p>
+                <p>Actualités</p>
+            </div>
+            <div class="col-md-2 col-lg-2 text-white mt-5 pt-4">
+                <p class="he">COMMUNAUTES</p>
+                <p>Espace artistes</p>
+                <p>Développeurs</p>
+                <p>Marques</p>
+            </div>
+            <div class="col-md-2 col-lg-2 text-white mt-5 pt-4">
+                <p class="he">LIEN UTILES</p>
+                <p>Aide</p>
+                <p>Cadeau</p>
+                <p>Lecteur Web</p>
+            </div>
+            <div class="col-md-1 col-lg-1">
+            </div>
+            <div class="col-md-3 col-lg-3 mt-5 pt-5">
+                <a href="#" class="mr-3"><i class="circle fas fa-circle fa-3x"></i><i class=" co fab fa-instagram fa-inverse fa-2x"></i></a>
+                <a href="#" class="mr-3"><i class="circle fas fa-circle fa-3x"></i><i class="co fab fa-twitter fa-inverse fa-2x"></i></a>
+                <a href="#"><i class="circle fas fa-circle fa-3x"></i><i class="co fab fa-facebook-f fa-inverse fa-2x"></i></a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-lg-4 mt-5">
+                <ul class="foot">
+                    <li>
+                        <a href="/fr/legal/">Légal</a>
+                    </li>
+                    <li>
+                        <a href="/fr/legal/privacy-policy/">Confidentialité</a>
+                    </li>
+                    <li>
+                        <a href="/fr/legal/privacy-policy/#s13">Cookies</a>
+                    </li>
+                    <li>
+                        <a href="/fr/legal/privacy-policy/#s13">À propos des pubs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-6">
+            </div>
+            <div class="flag col-md-2 col-lg-2">
+                <p>France<img src="img/drapeau-france-5075-cm.jpg" alt="france"></p>
+                <p>2017 spotify AB</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!--Script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+</body>
+    
+</html>

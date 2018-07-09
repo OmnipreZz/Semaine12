@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>color-picker</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+    <h1>Color Picker</h1>
+
+    <form action="">
+        <label for="rouge" class="r">Red</label>
+        <input type="range" id="rouge" min="0" max="255" value="120" name="r" oninput="result1.value=parseInt(r.value)">
+        <output name="result1">--</output>
+
+        <label for="vert" class="g">Green</label>
+        <input type="range" id="vert" min="0" max="255" value="120" name="g" oninput="result2.value=parseInt(g.value)">
+        <output name="result2">--</output>
+
+        <label for="bleu" class="b">Blue</label>
+        <input type="range" id="bleu" min="0" max="255" value="120" name="b" oninput="result3.value=parseInt(b.value)">
+        <output name="result3">--</output>
+    </form>
+
+    <!-- <form action="">
+        <label for="red" class="r">Red</label>
+        <input type="range" id="red" min="0" max="255">
+    
+        <label for="green" class="g">Green</label>
+        <input type="range" id="green" min="0" max="255">
+    
+        <label for="blue" class="b">Blue</label>
+        <input type="range" id="blue" min="0" max="255">
+    </form> -->
+    
+</body>
+</html>

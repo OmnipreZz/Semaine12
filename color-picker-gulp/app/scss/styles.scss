@@ -1,0 +1,36 @@
+$red: 50;
+$green: 50;
+$blue: 50;
+
+
+body {
+    background-color: rgb($red, $green, $blue);
+}
+
+.r {
+    background-color: red;
+}
+
+.g {
+    background-color: green;
+}
+
+.b {
+    background-color: blue;
+}
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 1em;
+}
+
+form {
+    text-align: center;
+    margin: 5em;
+}
+
+output {
+    margin-right: 2em;
+}
